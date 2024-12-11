@@ -43,6 +43,8 @@ export type PuppeteerScreenRecorderOptions = {
    * @default 100
    */
   readonly quality?: number;
+  readonly maxWidth?: number;
+  readonly maxHeiht?: number;
 
   /**
    * @name format
