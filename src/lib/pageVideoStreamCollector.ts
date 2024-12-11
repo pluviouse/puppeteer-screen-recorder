@@ -65,6 +65,8 @@ export class pageVideoStreamCollector extends EventEmitter {
         everyNthFrame: 1,
         format: this.options.format || 'jpeg',
         quality: quality,
+        maxWidth: this.options.maxWidth || null,
+        maxHeight: this.optiond.maxHeght || null
       });
     } catch (e) {
       if (shouldDeleteSessionOnFailure) {
